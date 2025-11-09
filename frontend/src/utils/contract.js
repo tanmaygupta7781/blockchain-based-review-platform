@@ -2,7 +2,7 @@ import { ethers } from "ethers";
 import ReviewSystemABI from "../abi/ReviewSystem.json"; // generated after truffle compile
 
 // Update this with your deployed contract address from truffle migrate
-const CONTRACT_ADDRESS = "0xfa40665bC86E0cB619263823e2CE8F18ACB0A95e";
+const CONTRACT_ADDRESS = "0xB89C17F10A449Fbc18fB779Ff725a44585abb6BF";
 
 let contract;
 let signer;

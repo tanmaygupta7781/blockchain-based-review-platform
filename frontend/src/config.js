@@ -1,4 +1,4 @@
 // Set this to the deployed contract address after running `truffle migrate`
-export const CONTRACT_ADDRESS = "0xfa40665bC86E0cB619263823e2CE8F18ACB0A95e";
+export const CONTRACT_ADDRESS = "0xB89C17F10A449Fbc18fB779Ff725a44585abb6BF";
 
 

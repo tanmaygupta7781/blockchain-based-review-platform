@@ -222,6 +222,7 @@ contract ReviewSystem {
 
             // pay back principal + proportional share to agree voters
             uint256 totalWinningStake = c.challengerStake + c.agreeStake;
+            if (totalWinningStake == 0) return;
             for (uint256 i = 0; i < c.agreeVoters.length; i++) {
                 address payable v = payable(c.agreeVoters[i]);
                 uint256 st = c.stakeByVoter[v];
